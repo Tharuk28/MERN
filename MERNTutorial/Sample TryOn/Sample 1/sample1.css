@@ -1,0 +1,40 @@
+.top>p{
+    font-size: 30px;
+}
+.top{
+    background-color: aquamarine;
+    color: aliceblue;
+    text-align: center;
+
+}
+.im{
+    border:1px solid black;
+
+}
+.im>div{
+    text-align: center;
+}
+.dept{
+    text-align: center;
+    display: block;
+}
+.dept>ul>li>a{
+    color: beige;
+    text-decoration: none;
+    background-color: blue;
+}
+.dept>ul>li{
+    padding: 10px;
+}
+section{
+    display: flex;
+    border: 1px solid;
+    text-align: center;
+}
+section>div{
+    text-align: center;
+    border: 1px solid;
+}
+.div1{
+    display: flex;
+}

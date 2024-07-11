@@ -1,0 +1,39 @@
+.welcome>h1{
+    background-color:aqua;
+    width: 50%;
+    height: 500px;
+    border: 7px solid green;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo1>img{
+    width: 60px;
+    height: 60px;
+}
+.contact a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: blueviolet;
+    padding:10px 20px;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul>li{
+    margin-left: 15px;
+}
+ul>li>a{
+    text-decoration: none;
+    color: black;
+    
+}

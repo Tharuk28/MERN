@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('wallpaperflare.com_wallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700;
+}
+
+.jumbotron {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 100px 25px;
+}
+
+.section {
+    padding: 60px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}

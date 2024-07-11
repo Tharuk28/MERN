@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Validation</title>
+    <link rel="stylesheet" href="asgday2.css">
+</head>
+<body>
+    <form id="registrationForm">
+        <h2>Register</h2>
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" pattern="[a-zA-Z]{2,15}" required>
+        <span class="error" id="fullNameError">Please enter a valid name.</span>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <span class="error" id="emailError">Please enter a valid email.</span>
+        
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" pattern="[a-zA-Z0-9]{8,15}" required>
+        <span class="error" id="passwordError">Password must be at least 8 characters long and include an uppercase letter, a lowercase letter, a number, and a special character.</span>
+        
+        <label for="phone">Phone Number</label>
+        <input type="number" id="phone" name="phone" pattern="[0-9] {10}" required>
+        <span class="error" id="phoneError">Please enter a valid 10-digit phone number.</span>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+p{
+    font-size: 16px;
+}
+nav{
+    background-color: yellow;
+}
+header{
+    font-size: 24px;
+    color: blue;
+}
+input:required{
+    border-color: red;
+}
+button:hover{
+    background-color: lightgray;
+    cursor: grab;
+}
+ul li{
+    font-weight: bold;
+}
+h1+h2{
+    color: aqua;
+}
+:target{
+    color: blue;
+}

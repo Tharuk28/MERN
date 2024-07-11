@@ -1,0 +1,37 @@
+.head{
+    color:#C30904;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 1px solid;
+    border-color: #C30904;
+}
+header{
+    background-color: bisque;
+    padding: 30px;
+}
+form{
+    background-color: bisque;
+    border: 1px solid;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.button{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.hart1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #C30904;
+}
+#logo{
+    position:fixed;
+    top: 20px;;
+    left:15px;
+}
+.menu{
+    position: fixed;
+    padding-top: 20%;
+}

@@ -1,0 +1,31 @@
+.l1{
+    color:aqua;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.l2{
+    color:blueviolet;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.head{
+    color: aquamarine;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.md{
+    color:red;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.d1{
+    color:darkgoldenrod;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.d2{
+    color:lightcoral;
+    font-size: 40px;
+    font-weight: bolder;
+}
